@@ -75,7 +75,7 @@ Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and 
 
 
 if __name__ == "__main__":
-    api_key = "V8U6MBTX05NYXIY1"
+    api_key = "API_KEY"
     yes_price = closing_stock_price(api_key)
     day_before = closing_stock_price_day_before(api_key)
     print(day_before)
